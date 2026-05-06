@@ -39,8 +39,9 @@ A **Random Forest Classifier** is trained on a dataset to classify whether input
 
 ## 🚀 How to Run the Project
 
-### 1️⃣ Install dependencies
+
 ```bash
+1️⃣ Install dependencies
 pip install pandas numpy scikit-learn matplotlib seaborn openpyxl
 
 2️⃣ Run the script:
