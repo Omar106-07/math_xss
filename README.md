@@ -42,3 +42,12 @@ A **Random Forest Classifier** is trained on a dataset to classify whether input
 ### 1️⃣ Install dependencies
 ```bash
 pip install pandas numpy scikit-learn matplotlib seaborn openpyxl
+
+2️⃣ Run the script:
+
+   python XSS_detection.py
+
+3️⃣ The program will:
+   - Train the model
+   - Show results (accuracy, report, confusion matrix)
+   - Generate an HTML report (report.html)
