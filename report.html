@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>XSS Detection Report</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 40px;
+            background-color: #f4f4f4;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .box {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        pre {
+            background: #eee;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>XSS Attack Detection Report</h1>
+
+<div class="box">
+    <h2>📌 Project Description</h2>
+    <p>This project detects Cross-Site Scripting (XSS) attacks using a Random Forest Machine Learning model.</p>
+</div>
+
+<div class="box">
+    <h2>📊 Accuracy</h2>
+    <p><strong>0.9891</strong></p>
+</div>
+
+<div class="box">
+    <h2>📈 Classification Report</h2>
+    <pre>              precision    recall  f1-score   support
+
+           0       1.00      0.98      0.99        48
+           1       0.98      1.00      0.99        44
+
+    accuracy                           0.99        92
+   macro avg       0.99      0.99      0.99        92
+weighted avg       0.99      0.99      0.99        92
+</pre>
+</div>
+
+<div class="box">
+    <h2>📉 Confusion Matrix</h2>
+    <pre>[[47  1]
+ [ 0 44]]</pre>
+</div>
+
+<div class="box">
+    <h2>⚙️ Model Used</h2>
+    <p>Random Forest Classifier with 100 trees</p>
+</div>
+
+</body>
+</html>
